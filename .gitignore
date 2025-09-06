@@ -1,0 +1,62 @@
+
+# MATLAB .gitignore
+# -----------------
+# Ignore backup, autosave, compiled, and temporary files commonly created by MATLAB.
+
+# Backup and autosave files
+*.asv
+*.autosave
+
+# Compiled binary files
+*.mex*
+*.dll
+*.so
+*.dylib
+*.exe
+
+# MATLAB cache and temporary directories
+**/*_mcr
+**/mccExcludedFiles.log
+**/readme.txt
+**/v2/
+
+# Hidden/system files
+.DS_Store
+Thumbs.db
+
+# MATLAB-generated figures and temporary files
+*.fig
+*.tmp
+*.log
+
+# Project-specific folders
+.slprj/
+.ssf/
+.simulink/
+.par/
+
+# Simulink cache files
+
+# Simulink test results
+*.mdl.rtw
+*.tlc
+*.xpc
+*.xpc.mak
+*.xpc.tmf
+*.xpc.???
+
+# Workspace and settings
+*.mat
+*.mex
+*.mlappinstall
+*.mlapp
+*.mlpkginstall
+
+# User settings and preferences
+*.prj
+*.settings
+*.mlproj
+*.tmf
+
+old/
+
